@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Shooting Arcade by Manoj Singh Negi</title>
+        <meta name="description" content="A simple HTML5 shooter game built with Phaser 2" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
         <script src="http://localhost:3000/scripts/game.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+        <style>
+        
+            html, body {
+                height: 100%;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            a {
+                color: black;
+            }
+
+            span, a {
+                margin-bottom: 10px;
+            }
+
+        </style>
     </head>
     <body>
+
+        <span>Kill 20 enemies and Yeah don't touch them</span>
+        <span>Shoot with `SPACEBAR` and move with `ARROWS`</span>
+        <div id="shooter"></div>
+        <p>
+            <a target="_blank" href="https://github.com/manojsinghnegiwd/shooting-arcade">Browse code on github</a>
+            or visit me at <a target="_blank" href="http://manojsinghnegi.com">Manojsinghnegi.com</a>
+        </p>
     </body>
 </html>
